@@ -1,10 +1,9 @@
-
-import Caffe_listing_page from "./components/caffe_listing_page";
+import Listing_page from "./components/Listing_page"
 function App() {
   
 
   return (
-    <Caffe_listing_page/>
+    <Listing_page/>
   )
 }
 
