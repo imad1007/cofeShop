@@ -1,6 +1,5 @@
 
-import Caffe_listing_page from "./components/caffe_listing_page"
-
+import Caffe_listing_page from "./components/caffe_listing_page";
 function App() {
   
 
