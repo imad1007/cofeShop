@@ -21,7 +21,7 @@ export default function Card({ data }) {
                         <>
                         <img src={start_fill} style={{ width: '20px', height: '20px' }} />
                         <span style={{ color: '#FEF7EE', fontWeight: '600' }}> {item.rating} </span> 
-                        <span style={{ color: '#6F757C', fontWeight: '600' }}> {`(${item.votes})`} </span>
+                        <span style={{ color: '#6F757C', fontWeight: '600' }}> {`(${item.votes} votes)`} </span>
                         </>
                         :
                         <>
