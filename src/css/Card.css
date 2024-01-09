@@ -1,0 +1,65 @@
+@import url('https://fonts.google.com/specimen/DM+Sans');
+.card{
+    width: 260px;
+    position: relative;
+    margin-bottom: 30px;
+    
+}
+.card img{
+    border-radius: 15px;
+}
+.card .popular{
+    font-family: 'DM sans', sans-serif;
+    position: absolute;
+    background-color: #F6C768;
+    font-size: 10px;
+    width: 50px;
+    top: 10px;
+    left: 10px;
+    color: #1B1D1F;
+    text-align: center;
+    padding: 3px;
+    border-radius: 10px;
+}
+.card .title_and_price{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'DM sans',  sans-serif;
+    padding-top: 10px;
+}
+.card h2{
+    color: #FEF7EE;
+    font-size: 14px;
+}
+.card .title_and_price p{
+    background-color: #BEE3CC;
+    color: #1B1D1F;
+    font-size: 12px;
+    width: 40px;
+    text-align: center;
+    padding: 4px;
+    border-radius: 3px;
+    font-weight: 600;
+   
+}
+.reviews{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'DM sans', sans-serif;
+    padding-top: 10px;
+}
+.reviews .rating{
+    display: flex;
+    justify-content: start;
+    gap: 4px;
+    align-items: center;
+    font-size: 12px;
+    
+}
+.rating span{
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
